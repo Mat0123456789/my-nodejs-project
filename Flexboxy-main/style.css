@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.header, .footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #bbb;
+    padding: 10px;
+    background-color: #333;
+    color: #f9f9f9;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ .content1, .content2>div>div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #bbb;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mian-container{
+    flex: 6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.content2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.content2>div{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.subcontent1, .subcontent2 {
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.subcontent1 a, .subcontent2 a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.subcontent2 ul {
+    list-style-type:circle;
+}
+
+.subcontent2 ul li {
+    margin-bottom: 5px;
+}
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 800px){
+     .main-container>div{
+        min-height: 400px;
+     }
+     .content1{
+        flex: 100%;
+     }
+
+     .header{
+        min-height: 90px;
+        
+     }
+
+     .content2>div>div{
+        min-height: 200px;
+    }
+
+     .footer{
+        min-height: 110px;
+     }
+}
+
+@media screen and (max-width: 520px){
+    .content2>div{
+        flex-direction: column;
+    }
+
+    .content2>div>div{
+        min-height: 200px;
+    }
+    .content1{
+        min-height: 300px;
+    }
+}

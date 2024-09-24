@@ -1,0 +1,121 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:#000000;
+}
+header {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW58A0MMLIem9NzGfjDXStTUMrrVGsYZdAhg&s);
+	color: #FFFF00;
+	background-position: center ;
+	background-size: 80%;
+}
+header > section {
+	padding: 3.5em 10% 3.5em 10%;
+	font-size:3em;
+}
+
+/* ------เมนู---------*/
+ul.menu {
+	background-color: #444239;
+	margin: 0;
+	list-style-type:none;
+   	padding:0 10% 0 10%;
+	position:relative;
+	overflow:auto;
+}
+ul.menu li a{
+	text-decoration:none;
+	color:#DCDCDC; 
+	text-shadow: 0 0 15px red;
+	font-size:1.5em;
+	float: left;
+	padding:1em 1.9em 1em 1.9em;
+}
+ul.menu li a:hover{
+	color:#FFFF00;	
+}
+/* ------เนื้อหา----- */
+article { display: block;}
+article > section {
+	padding: 1em 10%  0.5em 10%;
+	color: white;
+}
+article > section > h2 {
+    color:#DCDCDC ;	
+}
+article > section > h3 {
+    color:#DCDCDC ;	
+
+}
+article > section > h4 {
+	color:	#9400D3;
+	text-align: center;
+	border-bottom: solid 4px #9400D3
+}
+section > h5 {
+	color:	#DCDCDC;
+}
+#T {
+	color:	#DCDCDC;
+}
+#pp{
+	text-indent:50px;/*ย่อหน้า*/
+	text-align: justify;/*ขิดขอบซ้ายขวา*/
+	color:#FFFF00;
+}
+#ppy{
+	text-indent:50px;/*ย่อหน้า*/
+	text-align: justify;/*ขิดขอบซ้ายขวา*/	
+}
+#pp1{
+	text-indent:50px;/*ย่อหน้า*/
+	text-align: justify;/*ขิดขอบซ้ายขวา*/
+	color:#FFFF00;
+	font-size:60px;
+}
+#pp2{
+	text-indent:50px;/*ย่อหน้า*/
+	text-align: justify;/*ขิดขอบซ้ายขวา*/
+	color:#FFFF00;
+	font-size:50px;
+}
+#icon {
+	height:1.1em;
+	vertical-align:top;
+}
+.minH {min-height:320px;}
+/*----lส่วนท้าย---*/
+footer {
+	color:#DCDCDC;
+	padding:1em 5% 1em 5%;
+	font-size:0.9em;
+	background-color:#444239;
+	background-position: center ;
+}
+footer > section:first-child {
+	float:right;
+	width:40%;
+}
+footer > section > a:link,footer > section > a:visited{
+	text-decoration: none;
+	color: #DCDCDC;
+}
+
+
+/*@media screen and (max-width:900px){
+	ul.menu { padding:0;}
+	ul.menu li a {
+         display:block;
+		 float:none;
+		 text-align:center;
+	}
+    article > section {
+	padding:0.5em 10px 10px 10px;}
+	#img2 {
+	width:100%;}
+	#imgL,imgR  {
+	width:100%;
+	height:auto;
+	
+}*/
+

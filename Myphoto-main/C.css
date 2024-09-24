@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: rgb(255, 230, 0);
+    position: relative;
+    padding: 1%;
+}
+#imgheadder{
+    position:relative;   
+    padding: 0%;
+    margin: 0%;
+    left: 0%;
+    top: 0%;
+    width: 8%;   
+}
+#pheadder{
+	font-size: 10mm;
+    position:absolute;
+    text-align: center;
+    left: 15%;
+    top: 3%;
+    border: 10px;
+
+}
+footer {
+    /* ลองอีกแบบ
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    color: yellow;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 100%;*/
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    height: 6%;
+    background-color: black;
+    text-align: center;
+    color: yellow;
+    padding: 0;
+    margin-bottom: -1%; 
+    font-size:xx-small;
+}
+.contop1{
+    margin-top: 0%;
+}
+.contop2{
+    margin-top: 13%;
+}
+.contop3{
+    margin-top: 25%;
+
+}
+.conL{
+    position: absolute;
+    left: 1%;
+    width: 30%;
+    height: 20%;
+}
+.conC{
+    position: absolute;
+    left: 33%;
+    width: 30%;
+    height: 20%;
+}
+.conR{
+    position: absolute;
+    left: 66%;
+    width: 30%;
+    height: 20%;
+}
+div img{
+    width: 15%;
+}
+.conall{
+    position:relative;
+    margin: 1%;
+    text-align: center;
+}
+.conphoto{
+    position: relative;
+}
+.photo{
+    position:absolute;
+    left: 15%;
+    width: 60%;
+    font-size:large;
+    
+}
+.photo > p{
+    margin-left: -50px;
+    width: 70%;
+    font-size:large;
+    word-wrap: break-word;
+}
+.imginp{
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    width: 20%;
+}
+.gohome{
+    position: absolute;
+    margin-top: 30%;
+    left: 80%;
+    width: 20%;
+}
+
+
+
+
+
+/*ชี้แจงเนื่องจาก อยากจะเว้นบรรทัดในพารากราฟ ถ้าใช้brมันจะลำบากเกินไปสักนิด
+และลองใช้positionแล้วยังไม่ได้จึงอนุญาติใช้ word-wrap: break-word; นะครับ*/
